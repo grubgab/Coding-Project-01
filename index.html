@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Contact Us</h1>
+
+    <form>
+        <p>Name:</p>
+        <input type="text" id="name" placeholder="enter your name">
+        <span id="nameTip"></span>
+
+        <p>Email:</p>
+        <input type="email" id="email" placeholder="enter your email">
+        <span id="emailTip"></span>
+
+        <p>Comments:</p>
+        <textarea id="comments" placeholder="write your comment here"></textarea>
+        <span id="commentsTip"></span>
+        <p id="charCount">Characters: 0</p>
+
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <p id="errorMsg" style="color: red"></p>
+    <div id="feedback-display"></div>
+
+    <script src="cp_1.js"></script>
+</body>
+</html>
